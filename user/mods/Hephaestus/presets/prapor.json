@@ -1,0 +1,772 @@
+[
+
+	{
+		"Id": "6856a41d0100152df79f92a8",
+		"Name": "Test Drive 1",
+		"Root": "6856a4272b31f3393004d0c1",
+		"Items": [
+			{
+			"_id": "6856a4272b31f3393004d0c1",
+			"_tpl": "5aafa857e5b5b00018480968",
+			"upd": {
+				"SpawnedInSession": true,
+				"Repairable": {
+				"MaxDurability": 100,
+				"Durability": 100
+				},
+				"FireMode": {
+				"FireMode": "single"
+				}
+			}
+			},
+			{
+			"_id": "6856a4272b31f3393004d0c2",
+			"_tpl": "5aaf8a0be5b5b00015693243",
+			"slotId": "mod_magazine",
+			"upd": {
+				"SpawnedInSession": true
+			},
+			"parentId": "6856a4272b31f3393004d0c1"
+			},
+			{
+			"_id": "6856a4272b31f3393004d0c3",
+			"_tpl": "5addbf175acfc408fb13965b",
+			"slotId": "mod_stock",
+			"upd": {
+				"SpawnedInSession": true
+			},
+			"parentId": "6856a4272b31f3393004d0c1"
+			},
+			{
+			"_id": "6856a4272b31f3393004d0c4",
+			"_tpl": "5addbac75acfc400194dbc56",
+			"slotId": "mod_barrel",
+			"upd": {
+				"SpawnedInSession": true
+			},
+			"parentId": "6856a4272b31f3393004d0c1"
+			},
+			{
+			"_id": "6856a4272b31f3393004d0c5",
+			"_tpl": "5abcbb20d8ce87001773e258",
+			"slotId": "mod_sight_rear",
+			"upd": {
+				"SpawnedInSession": true,
+				"Sight": {
+				"ScopesCurrentCalibPointIndexes": [
+					0
+				],
+				"ScopesSelectedModes": [
+					0
+				],
+				"SelectedScope": 0,
+				"ScopeZoomValue": 0
+				}
+			},
+			"parentId": "6856a4272b31f3393004d0c1"
+			},
+			{
+			"_id": "6856a4272b31f3393004d0c6",
+			"_tpl": "5addbfef5acfc400185c2857",
+			"slotId": "mod_mount",
+			"upd": {
+				"SpawnedInSession": true
+			},
+			"parentId": "6856a4272b31f3393004d0c1"
+			},
+			{
+			"_id": "6856a4272b31f3393004d0c7",
+			"_tpl": "5a608bf24f39f98ffc77720e",
+			"slotId": "cartridges",
+			"location": 0,
+			"upd": {
+				"StackObjectsCount": 20,
+				"SpawnedInSession": true
+			},
+			"parentId": "6856a4272b31f3393004d0c2"
+			},
+			{
+			"_id": "6856a4272b31f3393004d0c8",
+			"_tpl": "5addbfbb5acfc400194dbcf7",
+			"slotId": "mod_mount",
+			"upd": {
+				"SpawnedInSession": true
+			},
+			"parentId": "6856a4272b31f3393004d0c3"
+			},
+			{
+			"_id": "6856a4272b31f3393004d0c9",
+			"_tpl": "626becf9582c3e319310b837",
+			"slotId": "mod_tactical",
+			"upd": {
+				"SpawnedInSession": true,
+				"Light": {
+				"IsActive": true,
+				"SelectedMode": 0
+				}
+			},
+			"parentId": "6856a4272b31f3393004d0c3"
+			},
+			{
+			"_id": "6856a4272b31f3393004d0ca",
+			"_tpl": "59bffc1f86f77435b128b872",
+			"slotId": "mod_muzzle",
+			"upd": {
+				"SpawnedInSession": true
+			},
+			"parentId": "6856a4272b31f3393004d0c4"
+			},
+			{
+			"_id": "6856a4272b31f3393004d0cb",
+			"_tpl": "57c69dd424597774c03b7bbc",
+			"slotId": "mod_scope",
+			"upd": {
+				"SpawnedInSession": true
+			},
+			"parentId": "6856a4272b31f3393004d0c6"
+			},
+			{
+			"_id": "6856a4272b31f3393004d0cc",
+			"_tpl": "5649a2464bdc2d91118b45a8",
+			"slotId": "mod_scope",
+			"upd": {
+				"SpawnedInSession": true
+			},
+			"parentId": "6856a4272b31f3393004d0c8"
+			},
+			{
+			"_id": "6856a4272b31f3393004d0cd",
+			"_tpl": "58d2664f86f7747fec5834f6",
+			"slotId": "mod_scope",
+			"upd": {
+				"SpawnedInSession": true
+			},
+			"parentId": "6856a4272b31f3393004d0cc"
+			},
+			{
+			"_id": "6856a4272b31f3393004d0ce",
+			"_tpl": "58d268fc86f774111273f8c2",
+			"slotId": "mod_scope",
+			"upd": {
+				"SpawnedInSession": true,
+				"Sight": {
+				"ScopesCurrentCalibPointIndexes": [
+					0
+				],
+				"ScopesSelectedModes": [
+					0
+				],
+				"SelectedScope": 0,
+				"ScopeZoomValue": 0
+				}
+			},
+			"parentId": "6856a4272b31f3393004d0cd"
+			},
+			{
+			"_id": "6856a4272b31f3393004d0cf",
+			"_tpl": "59bffbb386f77435b379b9c2",
+			"slotId": "mod_muzzle",
+			"upd": {
+				"SpawnedInSession": true
+			},
+			"parentId": "6856a4272b31f3393004d0ca"
+			},
+			{
+			"_id": "6856a4272b31f3393004d0d0",
+			"_tpl": "617151c1d92c473c770214ab",
+			"slotId": "mod_scope",
+			"upd": {
+				"SpawnedInSession": true,
+				"Sight": {
+				"ScopesCurrentCalibPointIndexes": [
+					0
+				],
+				"ScopesSelectedModes": [
+					0
+				],
+				"SelectedScope": 0,
+				"ScopeZoomValue": 0
+				}
+			},
+			"parentId": "6856a4272b31f3393004d0cb"
+			}
+		]
+		},
+		{
+		"Id": "6856a48f0100152df7e700a0",
+		"Name": "Test Drive 2",
+		"Root": "6856a4952b31f3393004ec35",
+		"Items": [
+			{
+			"_id": "6856a4952b31f3393004ec35",
+			"_tpl": "62e14904c2699c0ec93adc47",
+			"upd": {
+				"SpawnedInSession": true,
+				"Repairable": {
+				"MaxDurability": 100,
+				"Durability": 100
+				},
+				"Foldable": {
+				"Folded": false
+				},
+				"FireMode": {
+				"FireMode": "single"
+				}
+			}
+			},
+			{
+			"_id": "6856a4952b31f3393004ec36",
+			"_tpl": "62e153bcdb1a5c41971c1b5b",
+			"slotId": "mod_magazine",
+			"upd": {
+				"SpawnedInSession": true
+			},
+			"parentId": "6856a4952b31f3393004ec35"
+			},
+			{
+			"_id": "6856a4952b31f3393004ec37",
+			"_tpl": "62e2a7138e1ac9380579c122",
+			"slotId": "mod_muzzle",
+			"upd": {
+				"SpawnedInSession": true
+			},
+			"parentId": "6856a4952b31f3393004ec35"
+			},
+			{
+			"_id": "6856a4952b31f3393004ec38",
+			"_tpl": "62e2969582ebf260c20539c2",
+			"slotId": "mod_stock",
+			"upd": {
+				"SpawnedInSession": true
+			},
+			"parentId": "6856a4952b31f3393004ec35"
+			},
+			{
+			"_id": "6856a4952b31f3393004ec39",
+			"_tpl": "62e27a7865f0b1592a49e17b",
+			"slotId": "mod_reciever",
+			"upd": {
+				"SpawnedInSession": true
+			},
+			"parentId": "6856a4952b31f3393004ec35"
+			},
+			{
+			"_id": "6856a4952b31f3393004ec3a",
+			"_tpl": "637ba19df7ca6372bf2613d7",
+			"slotId": "mod_handguard",
+			"upd": {
+				"SpawnedInSession": true
+			},
+			"parentId": "6856a4952b31f3393004ec35"
+			},
+			{
+			"_id": "6856a4952b31f3393004ec3b",
+			"_tpl": "637ba29bf7ca6372bf2613db",
+			"slotId": "mod_pistolgrip",
+			"upd": {
+				"SpawnedInSession": true
+			},
+			"parentId": "6856a4952b31f3393004ec35"
+			},
+			{
+			"_id": "6856a4952b31f3393004ec3c",
+			"_tpl": "62ff9920fe938a24c90c10d2",
+			"slotId": "mod_mount",
+			"upd": {
+				"SpawnedInSession": true,
+				"Sight": {
+				"ScopesCurrentCalibPointIndexes": [
+					0
+				],
+				"ScopesSelectedModes": [
+					0
+				],
+				"SelectedScope": 0,
+				"ScopeZoomValue": 0
+				}
+			},
+			"parentId": "6856a4952b31f3393004ec39"
+			},
+			{
+			"_id": "6856a4952b31f3393004ec3d",
+			"_tpl": "62ed1921b3608410ef5a2c04",
+			"slotId": "mod_mount_001",
+			"upd": {
+				"SpawnedInSession": true
+			},
+			"parentId": "6856a4952b31f3393004ec3a"
+			}
+		]
+		},
+		{
+		"Id": "6856a49c0100152df78158f8",
+		"Name": "Test Drive 3",
+		"Root": "6856a4a22b31f3393004fada",
+		"Items": [
+			{
+			"_id": "6856a4a22b31f3393004fada",
+			"_tpl": "6499849fc93611967b034949",
+			"upd": {
+				"SpawnedInSession": true,
+				"Repairable": {
+				"MaxDurability": 100,
+				"Durability": 100
+				},
+				"Foldable": {
+				"Folded": false
+				},
+				"FireMode": {
+				"FireMode": "single"
+				}
+			}
+			},
+			{
+			"_id": "6856a4a22b31f3393004fadb",
+			"_tpl": "649ec107961514b22506b10c",
+			"slotId": "mod_gas_block",
+			"upd": {
+				"SpawnedInSession": true
+			},
+			"parentId": "6856a4a22b31f3393004fada"
+			},
+			{
+			"_id": "6856a4a22b31f3393004fadc",
+			"_tpl": "64c196ad26a15b84aa07132f",
+			"slotId": "mod_muzzle",
+			"upd": {
+				"SpawnedInSession": true
+			},
+			"parentId": "6856a4a22b31f3393004fada"
+			},
+			{
+			"_id": "6856a4a22b31f3393004fadd",
+			"_tpl": "5beec8ea0db834001a6f9dbf",
+			"slotId": "mod_pistol_grip",
+			"upd": {
+				"SpawnedInSession": true
+			},
+			"parentId": "6856a4a22b31f3393004fada"
+			},
+			{
+			"_id": "6856a4a22b31f3393004fade",
+			"_tpl": "649ec2f3961514b22506b111",
+			"slotId": "mod_reciever",
+			"upd": {
+				"SpawnedInSession": true
+			},
+			"parentId": "6856a4a22b31f3393004fada"
+			},
+			{
+			"_id": "6856a4a22b31f3393004fadf",
+			"_tpl": "649ec87d8007560a9001ab36",
+			"slotId": "mod_stock_001",
+			"upd": {
+				"SpawnedInSession": true
+			},
+			"parentId": "6856a4a22b31f3393004fada"
+			},
+			{
+			"_id": "6856a4a22b31f3393004fae0",
+			"_tpl": "649ec30cb013f04a700e60fb",
+			"slotId": "mod_magazine",
+			"upd": {
+				"SpawnedInSession": true
+			},
+			"parentId": "6856a4a22b31f3393004fada"
+			},
+			{
+			"_id": "6856a4a22b31f3393004fae1",
+			"_tpl": "649ec127c93611967b034957",
+			"slotId": "mod_handguard",
+			"upd": {
+				"SpawnedInSession": true
+			},
+			"parentId": "6856a4a22b31f3393004fada"
+			},
+			{
+			"_id": "6856a4a22b31f3393004fae2",
+			"_tpl": "5c0517910db83400232ffee5",
+			"slotId": "mod_scope",
+			"upd": {
+				"SpawnedInSession": true,
+				"Sight": {
+				"ScopesCurrentCalibPointIndexes": [
+					0
+				],
+				"ScopesSelectedModes": [
+					0
+				],
+				"SelectedScope": 0,
+				"ScopeZoomValue": 0
+				}
+			},
+			"parentId": "6856a4a22b31f3393004fade"
+			},
+			{
+			"_id": "6856a4a22b31f3393004fae3",
+			"_tpl": "5beec8c20db834001d2c465c",
+			"slotId": "mod_stock",
+			"upd": {
+				"SpawnedInSession": true
+			},
+			"parentId": "6856a4a22b31f3393004fadf"
+			}
+		]
+		},
+		{
+		"Id": "6856a5250100152df7ddb091",
+		"Name": "Test Drive 4",
+		"Root": "6856a52b2b31f339300517ea",
+		"Items": [
+			{
+			"_id": "6856a52b2b31f339300517ea",
+			"_tpl": "65268d8ecb944ff1e90ea385",
+			"upd": {
+				"SpawnedInSession": true,
+				"Repairable": {
+				"MaxDurability": 100,
+				"Durability": 100
+				},
+				"FireMode": {
+				"FireMode": "fullauto"
+				}
+			}
+			},
+			{
+			"_id": "6856a52b2b31f339300517eb",
+			"_tpl": "6513f0a194c72326990a3868",
+			"slotId": "mod_magazine",
+			"upd": {
+				"SpawnedInSession": true
+			},
+			"parentId": "6856a52b2b31f339300517ea"
+			},
+			{
+			"_id": "6856a52b2b31f339300517ec",
+			"_tpl": "6513f1798cb24472490ee331",
+			"slotId": "mod_stock",
+			"upd": {
+				"SpawnedInSession": true
+			},
+			"parentId": "6856a52b2b31f339300517ea"
+			},
+			{
+			"_id": "6856a52b2b31f339300517ed",
+			"_tpl": "6513eff1e06849f06c0957d4",
+			"slotId": "mod_barrel",
+			"upd": {
+				"SpawnedInSession": true
+			},
+			"parentId": "6856a52b2b31f339300517ea"
+			},
+			{
+			"_id": "6856a52b2b31f339300517ee",
+			"_tpl": "6513f05a94c72326990a3866",
+			"slotId": "mod_handguard",
+			"upd": {
+				"SpawnedInSession": true
+			},
+			"parentId": "6856a52b2b31f339300517ea"
+			},
+			{
+			"_id": "6856a52b2b31f339300517ef",
+			"_tpl": "6513f153e63f29908d0ffaba",
+			"slotId": "mod_sight_rear",
+			"upd": {
+				"SpawnedInSession": true,
+				"Sight": {
+				"ScopesCurrentCalibPointIndexes": [
+					0
+				],
+				"ScopesSelectedModes": [
+					0
+				],
+				"SelectedScope": 0,
+				"ScopeZoomValue": 0
+				}
+			},
+			"parentId": "6856a52b2b31f339300517ea"
+			},
+			{
+			"_id": "6856a52b2b31f339300517f0",
+			"_tpl": "618a75c9a3884f56c957ca1b",
+			"slotId": "mod_scope",
+			"upd": {
+				"SpawnedInSession": true
+			},
+			"parentId": "6856a52b2b31f339300517ea"
+			},
+			{
+			"_id": "6856a52b2b31f339300517f1",
+			"_tpl": "6513f13a8cb24472490ee32f",
+			"slotId": "mod_pistolgrip",
+			"upd": {
+				"SpawnedInSession": true
+			},
+			"parentId": "6856a52b2b31f339300517ec"
+			},
+			{
+			"_id": "6856a52b2b31f339300517f2",
+			"_tpl": "6513f037e06849f06c0957d7",
+			"slotId": "mod_bipod",
+			"upd": {
+				"SpawnedInSession": true
+			},
+			"parentId": "6856a52b2b31f339300517ed"
+			},
+			{
+			"_id": "6856a52b2b31f339300517f3",
+			"_tpl": "6513f0f5e63f29908d0ffab8",
+			"slotId": "mod_muzzle",
+			"upd": {
+				"SpawnedInSession": true
+			},
+			"parentId": "6856a52b2b31f339300517ed"
+			},
+			{
+			"_id": "6856a52b2b31f339300517f4",
+			"_tpl": "618a75f0bd321d49084cd399",
+			"slotId": "mod_scope",
+			"upd": {
+				"SpawnedInSession": true,
+				"Sight": {
+				"ScopesCurrentCalibPointIndexes": [
+					0
+				],
+				"ScopesSelectedModes": [
+					0
+				],
+				"SelectedScope": 0,
+				"ScopeZoomValue": 0
+				}
+			},
+			"parentId": "6856a52b2b31f339300517f0"
+			},
+			{
+			"_id": "6856a52b2b31f339300517f5",
+			"_tpl": "618a760e526131765025aae3",
+			"slotId": "mod_tactical",
+			"upd": {
+				"SpawnedInSession": true
+			},
+			"parentId": "6856a52b2b31f339300517f4"
+			}
+		]
+		},
+		{
+		"Id": "6856a5340100152df73a7f33",
+		"Name": "Test Drive 5",
+		"Root": "6856a53a2b31f339300526bf",
+		"Items": [
+			{
+			"_id": "6856a53a2b31f339300526bf",
+			"_tpl": "6680304edadb7aa61d00cef0",
+			"upd": {
+				"SpawnedInSession": true,
+				"Repairable": {
+				"MaxDurability": 100,
+				"Durability": 100
+				},
+				"Foldable": {
+				"Folded": false
+				},
+				"FireMode": {
+				"FireMode": "single"
+				}
+			}
+			},
+			{
+			"_id": "6856a53a2b31f339300526c0",
+			"_tpl": "66866f622a2296a8d9099639",
+			"slotId": "mod_magazine",
+			"upd": {
+				"SpawnedInSession": true
+			},
+			"parentId": "6856a53a2b31f339300526bf"
+			},
+			{
+			"_id": "6856a53a2b31f339300526c1",
+			"_tpl": "668670e3fb75ee4a5e02eb16",
+			"slotId": "mod_muzzle_000",
+			"upd": {
+				"SpawnedInSession": true
+			},
+			"parentId": "6856a53a2b31f339300526bf"
+			},
+			{
+			"_id": "6856a53a2b31f339300526c2",
+			"_tpl": "66867310f3734a938b077f79",
+			"slotId": "mod_stock",
+			"upd": {
+				"SpawnedInSession": true,
+				"Foldable": {
+				"Folded": false
+				}
+			},
+			"parentId": "6856a53a2b31f339300526bf"
+			},
+			{
+			"_id": "6856a53a2b31f339300526c3",
+			"_tpl": "6680326874b8f2050c0b9178",
+			"slotId": "mod_reciever",
+			"upd": {
+				"SpawnedInSession": true
+			},
+			"parentId": "6856a53a2b31f339300526bf"
+			},
+			{
+			"_id": "6856a53a2b31f339300526c4",
+			"_tpl": "668670432b934a68630a7fe8",
+			"slotId": "mod_barrel",
+			"upd": {
+				"SpawnedInSession": true
+			},
+			"parentId": "6856a53a2b31f339300526bf"
+			},
+			{
+			"_id": "6856a53a2b31f339300526c5",
+			"_tpl": "655f13e0a246670fb0373245",
+			"slotId": "mod_scope",
+			"upd": {
+				"SpawnedInSession": true,
+				"Sight": {
+				"ScopesCurrentCalibPointIndexes": [
+					0,
+					0
+				],
+				"ScopesSelectedModes": [
+					0,
+					0
+				],
+				"SelectedScope": 0,
+				"ScopeZoomValue": 0
+				}
+			},
+			"parentId": "6856a53a2b31f339300526c3"
+			}
+		]
+		},
+		{
+		"Id": "6856a5470100152df74031da",
+		"Name": "Test Drive 6",
+		"Root": "6856a54d2b31f339300526c6",
+		"Items": [
+			{
+			"_id": "6856a54d2b31f339300526c6",
+			"_tpl": "674d6121c09f69dfb201a888",
+			"upd": {
+				"SpawnedInSession": true,
+				"Repairable": {
+				"MaxDurability": 100,
+				"Durability": 100
+				},
+				"FireMode": {
+				"FireMode": "single"
+				}
+			}
+			},
+			{
+			"_id": "6856a54d2b31f339300526c7",
+			"_tpl": "63f4da90f31d4a33b87bd054",
+			"slotId": "mod_pistol_grip",
+			"upd": {
+				"SpawnedInSession": true
+			},
+			"parentId": "6856a54d2b31f339300526c6"
+			},
+			{
+			"_id": "6856a54d2b31f339300526c8",
+			"_tpl": "628a665a86cbd9750d2ff5e5",
+			"slotId": "mod_reciever",
+			"upd": {
+				"SpawnedInSession": true
+			},
+			"parentId": "6856a54d2b31f339300526c6"
+			},
+			{
+			"_id": "6856a54d2b31f339300526c9",
+			"_tpl": "5b0e794b5acfc47a877359b2",
+			"slotId": "mod_stock_000",
+			"upd": {
+				"SpawnedInSession": true
+			},
+			"parentId": "6856a54d2b31f339300526c6"
+			},
+			{
+			"_id": "6856a54d2b31f339300526ca",
+			"_tpl": "5c0548ae0db834001966a3c2",
+			"slotId": "mod_magazine",
+			"upd": {
+				"SpawnedInSession": true
+			},
+			"parentId": "6856a54d2b31f339300526c6"
+			},
+			{
+			"_id": "6856a54d2b31f339300526cb",
+			"_tpl": "5a33b2c9c4a282000c5a9511",
+			"slotId": "mod_scope",
+			"upd": {
+				"SpawnedInSession": true
+			},
+			"parentId": "6856a54d2b31f339300526c6"
+			},
+			{
+			"_id": "6856a54d2b31f339300526cc",
+			"_tpl": "674d5e287075e056160e0176",
+			"slotId": "mod_handguard",
+			"upd": {
+				"SpawnedInSession": true
+			},
+			"parentId": "6856a54d2b31f339300526c6"
+			},
+			{
+			"_id": "6856a54d2b31f339300526cd",
+			"_tpl": "5a32aa8bc4a2826c6e06d737",
+			"slotId": "mod_scope",
+			"upd": {
+				"SpawnedInSession": true,
+				"Sight": {
+				"ScopesCurrentCalibPointIndexes": [
+					0
+				],
+				"ScopesSelectedModes": [
+					0
+				],
+				"SelectedScope": 0,
+				"ScopeZoomValue": 0
+				}
+			},
+			"parentId": "6856a54d2b31f339300526cb"
+			}
+		]
+	},
+	{
+		"Id": "68419cb6010017a104daf864",
+			"Name": "Hell on Earth",
+			"Root": "68419cbf04dd247bec06ec07",
+			"Items": [
+			{
+				"_id": "68419cbf04dd247bec06ec07",
+				"_tpl": "5580223e4bdc2d1c128b457f",
+				"parentId": "hideout",
+				"slotId": "hideout",
+				"BackgroundColor": "yellow",
+				"upd": {
+					"UnlimitedCount": true
+				}
+			},
+			{
+				"_id": "68419cbf04dd247bec06ec08",
+				"_tpl": "5580169d4bdc2d9d138b4585",
+				"slotId": "mod_barrel",
+				"parentId": "68419cbf04dd247bec06ec07"
+			},
+			{
+				"_id": "68419cbf04dd247bec06ec09",
+				"_tpl": "611a31ce5b7ffe001b4649d1",
+				"slotId": "mod_stock",
+				"parentId": "68419cbf04dd247bec06ec07"
+			}
+		]
+	}
+]
