@@ -3261,5 +3261,109 @@
 			"parentId": "6856a2b72b31f33930047817"
 			}
 		]
-	}
+	},
+	  {
+    "Id": "686d73e3010017a104f3da5e",
+    "Name": "Gunsmith Special Order",
+    "Root": "686d73efc4f4c727580b8173",
+    "Items": [
+      {
+        "_id": "686d73efc4f4c727580b8173",
+        "_tpl": "5447a9cd4bdc2dbd208b4567",
+        "upd": {
+          "Repairable": {
+            "MaxDurability": 100,
+            "Durability": 100
+          },
+          "FireMode": {
+            "FireMode": "fullauto"
+          }
+        }
+      },
+      {
+        "_id": "686d73efc4f4c727580b8174",
+        "_tpl": "55d4b9964bdc2d1d4e8b456e",
+        "slotId": "mod_pistol_grip",
+        "parentId": "686d73efc4f4c727580b8173"
+      },
+      {
+        "_id": "686d73efc4f4c727580b8175",
+        "_tpl": "5aaa5e60e5b5b000140293d6",
+        "slotId": "mod_magazine",
+        "parentId": "686d73efc4f4c727580b8173"
+      },
+      {
+        "_id": "686d73efc4f4c727580b8176",
+        "_tpl": "55d355e64bdc2d962f8b4569",
+        "slotId": "mod_reciever",
+        "parentId": "686d73efc4f4c727580b8173"
+      },
+      {
+        "_id": "686d73efc4f4c727580b8177",
+        "_tpl": "638de3603a1a4031d8260b8c",
+        "slotId": "mod_stock",
+        "parentId": "686d73efc4f4c727580b8173"
+      },
+      {
+        "_id": "686d73efc4f4c727580b8178",
+        "_tpl": "55d44fd14bdc2d962f8b456e",
+        "slotId": "mod_charge",
+        "parentId": "686d73efc4f4c727580b8173"
+      },
+      {
+        "_id": "686d73efc4f4c727580b8179",
+        "_tpl": "58491f3324597764bc48fa02",
+        "slotId": "mod_scope",
+        "upd": {
+          "Sight": {
+            "ScopesCurrentCalibPointIndexes": [
+              0
+            ],
+            "ScopesSelectedModes": [
+              0
+            ],
+            "SelectedScope": 0,
+            "ScopeZoomValue": 0
+          }
+        },
+        "parentId": "686d73efc4f4c727580b8176"
+      },
+      {
+        "_id": "686d73efc4f4c727580b817a",
+        "_tpl": "5c0e2f94d174af029f650d56",
+        "slotId": "mod_barrel",
+        "parentId": "686d73efc4f4c727580b8176"
+      },
+      {
+        "_id": "686d73efc4f4c727580b817b",
+        "_tpl": "5c78f26f2e221601da3581d1",
+        "slotId": "mod_handguard",
+        "parentId": "686d73efc4f4c727580b8176"
+      },
+      {
+        "_id": "686d73efc4f4c727580b817c",
+        "_tpl": "5fbbaa86f9986c4cff3fe5f6",
+        "slotId": "mod_stock_000",
+        "parentId": "686d73efc4f4c727580b8177"
+      },
+      {
+        "_id": "686d73efc4f4c727580b817d",
+        "_tpl": "544a38634bdc2d58388b4568",
+        "slotId": "mod_muzzle",
+        "parentId": "686d73efc4f4c727580b817a"
+      },
+      {
+        "_id": "686d73efc4f4c727580b817e",
+        "_tpl": "56eabcd4d2720b66698b4574",
+        "slotId": "mod_gas_block",
+        "parentId": "686d73efc4f4c727580b817a"
+      },
+      {
+        "_id": "686d73efc4f4c727580b817f",
+        "_tpl": "651a8bf3a8520e48047bf708",
+        "slotId": "mod_foregrip",
+        "parentId": "686d73efc4f4c727580b817b"
+      }
+    ]
+  }
 ]
